@@ -8,7 +8,9 @@ This tool generates a summary of the given text content using **Flask** and **Te
     Python
     Flask
     Text Processing Libraries (SpaCy, NLTK, Heapq)
-Frontend:
+
+    
+-Frontend:
     HTML5
     CSS3
     Bootstrap
@@ -18,20 +20,16 @@ Frontend:
 
 ## **Getting Started**
 
-### **Step 1: Clone the Repository**
-```bash
-git clone https://github.com/your-username/Summary-Generator-Tool.git
-cd Summary-Generator-Tool
+# Clone the repository
+git clone https://github.com/your-username/your-repo.git
 
+# Navigate into the project directory
+cd your-repo
 
-
-### **Step 2: Set Up Virtual Environment**
-Create and activate a virtual environment for the project:
-
-```bash
+# Create and activate a virtual environment
 python -m venv env
-**Activate the environment:**
-.\env\Scripts\activate
+source env/bin/activate  # For Linux/macOS
+.\env\Scripts\activate   # For Windows
 
 
 ## **Tool Workflow**
