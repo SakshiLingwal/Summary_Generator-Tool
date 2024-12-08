@@ -5,15 +5,15 @@ This tool generates a summary of the given text content using **Flask** and **Te
 
 ## **Tech Stack**
 -Backend:
-    Python
-    Flask
+    Python,
+    Flask,
     Text Processing Libraries (SpaCy, NLTK, Heapq)
 
     
 -Frontend:
-    HTML5
-    CSS3
-    Bootstrap
+    HTML5,
+    CSS3,
+    Bootstrap,
     Jinja2 (Flask's templating engine)
 
 ---
@@ -27,8 +27,12 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 # Create and activate a virtual environment
-python -m venv env
+python -m venv env       (create virtual env.)
+
+
 source env/bin/activate  # For Linux/macOS
+
+
 .\env\Scripts\activate   # For Windows
 
 
@@ -45,3 +49,21 @@ source env/bin/activate  # For Linux/macOS
 - Users can:
   - Input the text content through the web interface.
   - Click the **"Generate Summary"** button to receive the summarized text output.
+ 
+## Usage
+
+### Run the Flask Application
+
+1.Start the Flask server:
+python app.py
+
+
+2.Access the Tool:
+Open your browser and navigate to :
+http://127.0.0.1:5000/
+
+
+Input the text content in the provided field.
+
+
+Click the "Generate Summary" button to get the summarized text.
