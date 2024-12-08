@@ -1,12 +1,10 @@
-Summary Generator Tool
-This tool provides an efficient and user-friendly solution for generating summaries of text content. It is built using Flask and various Python text processing libraries to ensure accurate and meaningful summarization.
+# **Summary Generator Tool**
 
-Features
-📄 Input Text: Accepts text input and generates an optimized summary.
-📊 Text Processing: Utilizes normalized word and sentence frequencies to prioritize content.
-🌐 Web-Based Interface: Simple and responsive interface for ease of use.
-Tech Stack
-Backend:
+This tool generates a summary of the given text content using **Flask** and **Text Processing Python Libraries**.  
+---
+
+## **Tech Stack**
+-Backend:
     Python
     Flask
     Text Processing Libraries (SpaCy, NLTK, Heapq)
@@ -15,18 +13,37 @@ Frontend:
     CSS3
     Bootstrap
     Jinja2 (Flask's templating engine)
-How It Works
-Text Processing:
 
-Computes the frequency of words and sentences to rank content.
-Extracts the most relevant sentences for the summary.
-Backend Framework:
+---
 
-Flask routes requests and renders the user interface.
-Frontend:
+## **Getting Started**
 
-HTML and Bootstrap provide an interactive interface for the user.
-Setup and Usage
-Follow the steps below to set up and run the Summary Generator Tool locally:
+### **Step 1: Clone the Repository**
+```bash
+git clone https://github.com/your-username/Summary-Generator-Tool.git
+cd Summary-Generator-Tool
 
-Step 1: Clone the Repository
+
+
+### **Step 2: Set Up Virtual Environment**
+Create and activate a virtual environment for the project:
+
+```bash
+python -m venv env
+**Activate the environment:**
+.\env\Scripts\activate
+
+
+## **Tool Workflow**
+
+### **1. Text Processing Function**
+- The `text_summary.py` file contains a function that processes the input text and generates a summary.
+- It uses the **normalized frequency of words** and sentences to identify the key sentences for the summary.
+- The function ensures that the most important content is retained while reducing redundancy.
+
+### **2. Flask Application**
+- The `app.py` file sets up a **Flask web application**.
+- This application provides a user-friendly **Graphical User Interface (GUI)** for the tool.
+- Users can:
+  - Input the text content through the web interface.
+  - Click the **"Generate Summary"** button to receive the summarized text output.
